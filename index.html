@@ -21,26 +21,26 @@
 <body>
 	<div class="ba-container ba-container--image">
 		<header class="ba-header cf">
-			<a href="#" class="ba-logo"><h1>Cahee</h1></a>
+			<a href="#" class="ba-logo">Cahee</a>
 			<!-- Begin Navigation -->
 			<ul class="ba-menu ba-float-right">
 				<li class="ba-menu__item">
 					<a href="#">HOME</a>
 				</li>
 				<li class="ba-menu__item">
-					<a href="#">ABOUT</a>
+					<a href="#about">ABOUT</a>
 				</li>
 				<li class="ba-menu__item">
-					<a href="#">SERVICES</a>
+					<a href="#services">SERVICES</a>
 				</li>
 				<li class="ba-menu__item">
-					<a href="#">GALLERY</a>
+					<a href="#gallery">GALLERY</a>
 				</li>
 				<li class="ba-menu__item">
-					<a href="#">BLOG</a>
+					<a href="#blog">BLOG</a>
 				</li>
 				<li class="ba-menu__item">
-					<a href="#">CONTACT</a>
+					<a href="#contact">CONTACT</a>
 				</li>
 			</ul>
 			<!-- End Navigation -->
@@ -54,9 +54,10 @@
 			</div>
 			<!-- End Promo -->
 		</div>
-	</div>
 	<a href="#about" class="ba-scroll"></a>
+	</div>
 	<main role="main" >
+		<!-- BEGIN SECTION-ABOUT -->
 		<section id="about" class="ba-section ba-section--about">
 			<div class="ba-container ba-container--about">
 				<div class="ba-grid">
@@ -73,10 +74,171 @@
 				</div>
 			</div>
 		</section>
+		<!-- END SECTION-ABOUT -->
+		<section id="services" class="ba-section ba-section--services">
+			<div class="ba-container">
+				<div class="ba-grid">
+					<div class="ba-width-1-2">
+						<ul class="ba-services">
+							<li class="ba-service">
+								<h5>Online Shopping</h5>
+								<span class="ba-service__img ba-service__img--shop"></span>
+							</li>
+							<li class="ba-service">
+								<h5>Quality Product</h5>
+								<span class="ba-service__img ba-service__img--product"></span>
+							</li>
+							<li class="ba-service">
+								<h5>Domestic &amp; International Delivery</h5>
+								<span class="ba-service__img ba-service__img--global"></span>
+							</li>
+							<li class="ba-service">
+								<h5>Well Organized</h5>
+								<span class="ba-service__img ba-service__img--carrot"></span>
+							</li>
+						</ul>
+					</div>
+					<div class="ba-width-1-2">
+						<h2 class="ba-title ba-title--services ba-text-center">Our Services</h2>
+					</div>
+				</div>
 
+			</div>
+		</section>
+		<!-- END SECTION-SERVICES -->
+		<!-- BEGIN SECTION-GALLERY -->
+		<section id="gallery" class="ba-section ba-section--gallery">
+			<div class="ba-container ba-text-center">
+				<div class="ba-gallery">
+					<h2 class="ba-title ba-title--gallery">Gallery</h2>
+					<p class="ba-gallery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="ba-grid">
+					<div class="ba-width-2-3">
+						<img class="ba-gallery__image" src="img/gallery/peach.jpg" alt="peach_on_the_plate">
+					</div>
+					<div class="ba-width-1-3">
+						<div class="ba-grid">
+							<div class="ba-width-1-1">
+								<img class="ba-gallery__image" src="img/gallery/blueberry.jpg" alt="blueberry">
+							</div>
+						</div>
+						<div class="ba-grid">
+							<div class="ba-width-1-1">
+								<img class="ba-gallery__image" src="img/gallery/blackberry.jpg" alt="blackberry">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ba-grid">
+					<div class="ba-width-1-2">
+						<img class="ba-gallery__image" src="img/gallery/blueberry-yogurt.jpg" alt="blueberry_yougurt">
+					</div>
+					<div class="ba-width-1-2">
+						<img class="ba-gallery__image" src="img/gallery/persimmon.jpg" alt="persimmon">
+					</div>
+				</div>
+				<a class="ba-button ba-button--gallery" href="#">VIEW MORE</a>
+			</div>
+		</section>
+		<!-- END SECTION-GALLERY -->
+		<!-- BEGIN SECTION-SUBSCRIBE -->
+		<section id="subscribe" class="ba-section ba-subscribe">
+			<div class="ba-container">
+				<h2 class="ba-subscribe__title">Subscribe To Us</h2>
+				<p class="ba-subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<form action="#" class="ba-subscribe__form" method="post" required>
+					<input class="ba-email ba-email--subscribe" type="email" placeholder="Your email address...">
+					<button class="ba-button ba-button--subscribe" type="submit">SUBSCRIBE</button>
+				</form>
+			</div>
+		</section>
+		<!-- END SECTION-SUBSCRIBE -->
+		<!-- BEGIN SECTION BLOG -->
+		<section id="blog" class="ba-section ba-section--blog">
+			<div class="ba-container ba-text-center">
+				<h2 class="ba-blog__title">Blog</h2>
+				<p class="ba-blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+				<div class="ba-grid">
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-blog-item">
+							<img src="img/green-smoothie.jpg">
+							<div class="ba-blog-item--cover">
+								<time class="ba-blog-item__date" datetime="11-20">20 <span>NOV</span></time>
+								<h5 class="ba-blog-item__title">Green Smoothies: Too Much of a Good Thing?</h5>
+								<span class="ba-blog-item__edited">By Auskteez - 2 hours ago</span>
+							</div>
+						</a>
+					</div>
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-blog-item">
+							<img src="img/growing-food.jpg">
+							<div class="ba-blog-item--cover">
+								<time class="ba-blog-item__date" datetime="11-14">14 <span>NOV</span></time>
+								<h5 class="ba-blog-item__title">Growing Food and a “Thirst” for Innovation</h5>
+								<span class="ba-blog-item__edited">By Auskteez - 3 hours ago</span>
+							</div>
+						</a>
+					</div>
+					<div class="ba-width-1-3">
+						<a href="#" class="ba-blog-item">
+							<img src="img/presticides-food.jpg">
+							<div class="ba-blog-item--cover">
+								<time class="ba-blog-item__date" datetime="11-10">10 <span>NOV</span></time>
+								<h5 class="ba-blog-item__title">Pesticides &amp; Food: What You Need to Know</h5>
+								<span class="ba-blog-item__edited">By Auskteez - 6 hours ago</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<a class="ba-button ba-button--blog" href="#">VIEW MORE</a>
+			</div>
+		</section>
+		<!-- END SECTION BLOG -->
+		<!-- BEGIN SECTION CONTACT -->
+		<section id="contact" class="ba-section ba-section--contact">
+			<div class="ba-container ba-text-center">
+				<h2 class="ba-contact__title">Contact</h2>
+				<p class="ba-contact__text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+				<div class="ba-grid">
+					<div class="ba-width-1-2">
+						<form action="#" class="ba-contact-form cf" method="post">
+							<label class="ba-contact-form__field ba-contact-form__field--name">
+								<input type="text" name="name" required placeholder="Auskteez Tran">
+							</label>
+							<label class="ba-contact-form__field ba-contact-form__field--email">
+								<input type="email" name="email" required placeholder="Your email&#8230;">
+							</label>
+							<label class="ba-contact-form__field ba-contact-form__field--phone">
+								<input type="tel" name="phone" required placeholder="Your phone number&#8230;">
+							</label>
+							<label class="ba-contact-form__field ba-contact-form__field--msg">
+								<textarea name="msg" cols="30" rows="10" placeholder="Your message&#8230;"></textarea>
+							</label>
+							<button class="ba-button ba-button--contact" type="submit">SEND</button>
+						</form>
+					</div>
+					<div class="ba-width-1-2">
+						<aside class="ba-contact-info ba-text-left">
+							<h6 class="ba-contact-info__title">ADDRESS</h6>
+							<address>123 City name, Street, City, Country</address>
+							<h6 class="ba-contact-info__title">EMAIL</h6>
+							<a href="mailto:cahee@domain.com">cahee&#64;domain.com</a>
+							<h6 class="ba-contact-info__title">PHONE</h6>
+							<a href="tel:+0123456789">+012 345 6789</a>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SECTION CONTACT -->
 	</main>
 	<footer class="ba-footer">
-
+		<div class="ba-container ba-container--flex">
+			<p class="ba-copyright">&copy; 2015 <a href="#">Company</a>. All right reserved.</p>
+			<a href="#" class="ba-logo ba-logo--footer">Cahee</a>
+			<p class="ba-developer">Made with <span>love</span> by Auskteez</p>
+		</div>
 	</footer>
 </body>
 </html>
